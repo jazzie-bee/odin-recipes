@@ -5,6 +5,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -59,6 +61,13 @@ textarea:not([rows]) {
 /* reset end */
 
 /* || My css */
+body {
+  color: #fff;
+  background: linear-gradient(360deg, #fb2f 50%, rgba(0, 0, 0, 0) 30%), url('https://images.unsplash.com/photo-1614292253389-bd2c1f89cd0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80');
+  background-size: cover;
+  background-position: 50%;
+}
+
 h1 {
     font-family: 'Rosarivo', serif;
 }
@@ -73,8 +82,8 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: black solid 1rem;
-  max-width: 360px;
+  min-width: 320px;
+  /* height: 100vh; */
   margin: auto;
 }
 
