@@ -58,20 +58,29 @@ textarea:not([rows]) {
 }
 /* reset end */
 
-h1, h2, h3, h4 {
+/* || My css */
+h1 {
     font-family: 'Rosarivo', serif;
-}
-
-p, ul, ol {
-    font-family: 'Trirong', serif;
-    font-size: 1rem;
-}
-
-img {
-    height: auto;
-    width: 500px;
 }
 
 nav > ul {
     list-style: none;
+    font-family: 'Trirong', serif;
+    font-size: 1rem;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: black solid 1rem;
+  max-width: 360px;
+  margin: auto;
+}
+
+h1, li, a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
 }
