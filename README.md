@@ -1,1 +1,1 @@
-A demonstration of my use of HTML by building a basic recipe website.
+Using HTML to layout a basic recipe website.
