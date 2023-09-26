@@ -61,21 +61,18 @@ textarea:not([rows]) {
 /* reset end */
 
 /* || My css */
-body {
-  color: #fff;
-  background: linear-gradient(360deg, #fb2f 50%, rgba(0, 0, 0, 0) 30%), url('https://images.unsplash.com/photo-1614292253389-bd2c1f89cd0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80');
-  background-size: cover;
-  background-position: 50%;
-}
-
 h1 {
     font-family: 'Rosarivo', serif;
+    font-size: 5rem;
+    margin: 2rem auto;
 }
 
-nav > ul {
-    list-style: none;
+nav {
+    display: flex;
+    justify-content: space-around;
     font-family: 'Trirong', serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    padding: 1.5rem;
 }
 
 div {
@@ -92,4 +89,53 @@ h1, li, a {
   flex-direction: column;
   justify-content: center;
   margin: auto;
+}
+
+img {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  top: 5%;
+  left: 36%;
+  width: 400px;
+  margin: auto;
+}
+
+.box {
+  background: orange;
+  height: auto;
+  width: 500px;
+}
+
+.bg-top {
+  color: #fff;
+  background: url('https://images.unsplash.com/photo-1614292253389-bd2c1f89cd0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80');
+  background-size: cover;
+  height: 40vh;
+  width: 100vw;
+}
+
+.text {
+  /* position: relative; */
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  background-color: #fff;
+  font-size: 1.5rem;
+  height: 50%;
+  width: 50%;
+  top: 50%;
+  left: 5%;
+  margin: 2rem 2rem;
+  padding: 1rem;
+}
+
+.bg-bottom {
+  background: #fb2f;
+  height: 60vh;
+  width: 100vw;
 }
