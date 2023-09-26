@@ -61,10 +61,23 @@ textarea:not([rows]) {
 /* reset end */
 
 /* || My css */
+body {
+  color: #fff;
+  height: 100vh;
+  background-image: linear-gradient(360deg,rgba(255,187,34,1) 50%,rgb(0,0,0,0) 0%), url(https://images.unsplash.com/photo-1614292253389-bd2c1f89cd0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80);
+  background-size: cover;
+  background-repeat: inherit;
+}
+
 h1 {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
     font-family: 'Rosarivo', serif;
-    font-size: 5rem;
-    margin: 2rem auto;
+    font-size: 15rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2rem auto 0;
 }
 
 nav {
@@ -75,46 +88,41 @@ nav {
     padding: 1.5rem;
 }
 
+a {
+  display: flex;
+  margin: 20px auto;
+}
+
 div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-width: 320px;
-  /* height: 100vh; */
   margin: auto;
 }
 
-h1, li, a {
+.img-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
+  position: relative;
 }
 
 img {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   position: absolute;
-  top: 5%;
-  left: 36%;
-  width: 400px;
-  margin: auto;
+  text-align: center;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
-.box {
-  background: orange;
-  height: auto;
-  width: 500px;
-}
 
-.bg-top {
+/* .bg-top {
   color: #fff;
   background: url('https://images.unsplash.com/photo-1614292253389-bd2c1f89cd0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80');
   background-size: cover;
   height: 40vh;
   width: 100vw;
-}
+} */
 
 .text {
   /* position: relative; */
@@ -134,8 +142,8 @@ img {
   padding: 1rem;
 }
 
-.bg-bottom {
-  background: #fb2f;
+/* .bg-bottom {
+  background: #fb2;
   height: 60vh;
   width: 100vw;
-}
+} */
