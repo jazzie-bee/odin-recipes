@@ -79,10 +79,6 @@ nav {
   font-size: 1.5rem;
   padding: 1.5rem;
 }
-/* 
-li {
-  float: left;
-} */
 
 a {
   margin: 20px auto;
@@ -134,19 +130,6 @@ hr {
   right: 0;
   margin: 2rem auto 1rem;
 }
-
-/* .title {
-  display: flex;
-}
-
-.title-top {
-  margin: auto;
-  letter-spacing: 6px;
-}
-
-.title-bottom {
-  margin: auto;
-} */
 
 .title-top {
   margin: 10rem auto 0;
